@@ -274,11 +274,11 @@ window.addEventListener("load", function () {
         let message1;
         let message2;
         if (this.game.score > this.game.winningScore) {
-          message1 = "You win!";
-          message2 = "Well done!";
+          message1 = "GANASTE!"; //"You win!";
+          message2 = "Bien hecho!";
         } else {
-          message1 = "You lose!";
-          message2 = "Try again next time!";
+          message1 = "PERDISTE!"; //"You lose!";
+          message2 = "Mera loooka!";
         }
         context.font = "50px " + this.fontFamily;
         context.fillText(
